@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Procurement decision report</title>
+<style>body{font:15px/1.6 system-ui,sans-serif;color:#152a36;max-width:1100px;margin:40px auto;padding:20px}h1{font-size:32px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #ccd7dd;text-align:left;padding:10px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f2f6f8;padding:20px;font:inherit}small{color:#536977}@media print{body{margin:0;padding:0}tr{break-inside:avoid}}</style>
+<small>AI PROCUREMENT ASSISTANT · DECISION SUPPORT · ENGINE 1.0.0</small>
+<h1>Supplier comparison & cost analysis</h1><p>Evaluation date: 2026-10-01 · SKU: BRG-6205</p>
+<h2>Deterministic decision brief</h2><pre>Recommended for review: Siam Precision Supply (Q001).
+Weighted score 94.53/100; 4 eligible quotes.
+Landed cost THB 166,150.00; cash outlay THB 177,756.00.
+Order 1,000 units for demand of 1,000; lead time 5 days against a 21-day deadline.
+Quality 99.2%; OTIF 98%.
+Trade-off: THB 18,485.00 above the cheapest eligible offer from Pacific Motion Trading; the chosen weights favor its combined delivery and performance scores.
+Compared with the selected baseline: THB 0.00 lower scenario cost. This is a modeled difference, not realized savings.
+Before approval: verify technical equivalence, quote validity, included charges, tax treatment and confirmed delivery with the supplier.</pre>
+<table><thead><tr><th>Supplier</th><th>Rank</th><th>Landed THB</th><th>Cash THB</th><th>Order qty</th><th>Days</th><th>Score / exclusion</th></tr></thead><tbody><tr><td>Siam Precision Supply</td><td>1</td><td>166,150.00</td><td>177,756.00</td><td>1000</td><td>5</td><td>94.53</td></tr><tr><td>Pacific Motion Trading</td><td>2</td><td>147,665.00</td><td>157,903.55</td><td>1000</td><td>14</td><td>86.24</td></tr><tr><td>Kanto Motion Supply</td><td>3</td><td>160,866.00</td><td>172,076.22</td><td>1000</td><td>17</td><td>81.79</td></tr><tr><td>Rhein Industrial Parts</td><td>4</td><td>176,063.50</td><td>188,254.95</td><td>1000</td><td>21</td><td>76.99</td></tr><tr><td>Metro Industrial Stock</td><td>Excluded</td><td>172,900.00</td><td>185,003.00</td><td>1000</td><td>3</td><td>Order exceeds supplier capacity</td></tr><tr><td>Eastbridge Components</td><td>Excluded</td><td>178,058.65</td><td>190,437.01</td><td>1500</td><td>28</td><td>Lead time exceeds deadline; Quality below minimum; OTIF below minimum</td></tr></tbody></table>
+<h2>Scenario and exchange rates</h2><pre>{
+  &quot;quantity&quot;: 1000,
+  &quot;deadline_days&quot;: 21,
+  &quot;min_quality&quot;: 95.0,
+  &quot;min_otif&quot;: 90.0,
+  &quot;sku&quot;: &quot;BRG-6205&quot;,
+  &quot;vat_recoverable&quot;: true,
+  &quot;as_of&quot;: &quot;2026-10-01&quot;,
+  &quot;weights&quot;: {
+    &quot;cost&quot;: 45.0,
+    &quot;lead&quot;: 20.0,
+    &quot;quality&quot;: 20.0,
+    &quot;reliability&quot;: 15.0
+  },
+  &quot;fx&quot;: {
+    &quot;JPY&quot;: 0.24,
+    &quot;THB&quot;: 1.0,
+    &quot;EUR&quot;: 38.0,
+    &quot;USD&quot;: 35.0,
+    &quot;CNY&quot;: 4.9
+  },
+  &quot;baseline_id&quot;: &quot;Q001&quot;
+}</pre>
+<h2>Assumptions & limitations</h2><ul><li>All example suppliers, prices, FX rates and performance values are synthetic.</li><li>THB is the base currency. FX means THB per 1 foreign currency unit; rates are manual, not live.</li><li>Freight, insurance and other costs are incremental per-shipment amounts in the quote currency. Enter only buyer-paid amounts not already in unit price.</li><li>Illustrative tax model: duty on goods + freight + insurance; VAT on that base + duty. Other costs are outside this simplified tax base.</li><li>No preferential tariffs, excise, VAT timing, financing, inventory holding cost or defect cost is modeled.</li><li>All quotes for a SKU must have equivalent technical specification, unit of measure and delivery scope. Incoterms are descriptive labels, not automatic cost rules.</li><li>Lead time is assumed to cover all calendar days from order to delivery; capacity is available quantity for this order. Historical quality/OTIF are user inputs, not forecasts.</li></ul><p>Human approval required. No purchase order has been placed.</p></html>

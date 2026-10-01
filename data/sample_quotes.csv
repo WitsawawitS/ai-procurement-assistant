@@ -1,0 +1,11 @@
+id,name,country,sku,currency,unit_price,moq,pack_size,freight,insurance,other_cost,duty_pct,vat_pct,lead_days,quality_pct,otif_pct,capacity,incoterm,valid_until
+Q001,Siam Precision Supply,Thailand,BRG-6205,THB,164,100,50,1800,0,350,0,7,5,99.2,98,6000,DAP,2030-12-31
+Q002,Pacific Motion Trading,Singapore,BRG-6205,USD,3.75,500,100,210,20,40,5,7,14,98.5,96,8000,FCA,2030-12-31
+Q003,Rhein Industrial Parts,Germany,BRG-6205,EUR,4.05,250,50,290,25,50,5,7,21,99.7,97,5000,FCA,2030-12-31
+Q004,Eastbridge Components,China,BRG-6205,CNY,21.8,1500,100,1550,120,250,5,7,28,94,88,15000,FOB,2030-12-31
+Q005,Kanto Motion Supply,Japan,BRG-6205,JPY,610,500,100,24000,1500,3000,5,7,17,99.5,98,5000,FCA,2030-12-31
+Q006,Metro Industrial Stock,Thailand,BRG-6205,THB,172,50,25,900,0,0,0,7,3,98.8,99,700,DAP,2030-12-31
+Q007,Siam Precision Supply,Thailand,FLT-H100,THB,430,20,10,1500,0,300,0,7,5,99,97,2000,DAP,2030-12-31
+Q008,Pacific Motion Trading,Singapore,FLT-H100,USD,10.3,100,20,180,15,35,5,7,12,98,95,3000,FCA,2030-12-31
+Q009,Rhein Industrial Parts,Germany,FLT-H100,EUR,9.8,50,10,220,20,45,5,7,22,99.6,98,2500,FCA,2030-12-31
+Q010,Eastbridge Components,China,FLT-H100,CNY,55,500,50,1800,100,200,5,7,30,96,91,5000,FOB,2030-12-31
